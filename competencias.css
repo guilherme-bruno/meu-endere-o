@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Eczar:wght@400..800&family=Kalam:wght@300;400;700&family=Madimi+One&display=swap');
+
+
+
+
+*{
+text-decoration: none;
+}
+
+body{
+   
+    background: linear-gradient(to right, #1E90FF ,#FFD700) ;
+}
+
+.cabecalho {
+    background: #FFD700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 4px 5px 4px #e97c0f;
+    border-radius: 25px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 150px;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item:hover {
+    color: #FF4500;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item{
+    color: #000000;
+}
+
+.imagem_competencias{
+    height: 500px;
+}
+
+.conteudo-principal-texto1{
+    font-size: 25px;
+}
+
+.conteudo-principal-texto2{
+    font-size: 25px;
+}
+
+.conteudo-principal-texto3{
+    font-size: 25px;
+}
+
+.conteudo-principal-texto4{
+    font-size: 25px;
+}
+
+.conteudo-principal-texto5{
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    color: #e97c0f;
+    text-shadow: 4px 5px 4px #000000;
+}
+
+footer{
+    border-top: 20px #000000;
+}
